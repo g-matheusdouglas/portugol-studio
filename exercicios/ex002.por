@@ -1,13 +1,11 @@
 programa
 {
-	
 	funcao inicio()
 	{
-		cadeia nome = "Matheus Douglas"
-		inteiro idade = 23
-		real peso = 69.5
-		caracter sexo = 'M'
-		logico casado = falso
+		cadeia nome
+		escreva("Qual é seu nome? ")
+		leia(nome)
+		escreva(" Olá " + nome + ", é um prazer te conhecer!")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -15,7 +13,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 164; 
+ * @POSICAO-CURSOR = 148; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
