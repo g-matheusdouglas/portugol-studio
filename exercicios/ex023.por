@@ -16,7 +16,7 @@ programa
 		se (sexo == 'F' ou sexo == 'm') {
 			preco = preco - (preco * 13 /100)
 			escreva("O valor total das compras da sra " + nome + " com o desconto é de R$" + preco)
-		} se senao (sexo == 'M' ou sexo == 'm') {
+		} senao se (sexo == 'M' ou sexo == 'm') {
 			preco = preco - (preco * 5 /100)
 			escreva("O valor total das compras do sr " + nome + " com o desconto é de R$" + preco)
 		}
@@ -27,7 +27,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 506; 
+ * @POSICAO-CURSOR = 605; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
