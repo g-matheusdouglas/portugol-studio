@@ -43,7 +43,8 @@ programa
 			}
 			se (sexo=='m' ou sexo=='M' e idade >= 30) {
 				homens30++
-			}senao se (sexo=='f' ou sexo=='F' e idade <= 18) {
+			}
+			se (sexo=='f' ou sexo=='F' e idade <= 18) {
 				mulheres18++
 			}
 			total_idade += idade
@@ -65,9 +66,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 14; 
+ * @POSICAO-CURSOR = 1151; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, vazio;
+ * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
